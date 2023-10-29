@@ -1,0 +1,119 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 2%;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(238, 206, 241);
+    background: linear-gradient(90deg, rgba(238, 206, 241, 1) 0%, rgba(212, 83, 250, 1) 100%);
+border-radius: 5px;
+}
+
+nav div {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: solid rgba(255, 255, 255, 0.3);
+    padding: 2vh;
+}
+
+nav div :hover {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    line-height: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: solid rgba(255, 255, 255, 0.3);
+    padding: 5vh;
+margin-top: 0% !important;
+}
+
+main {
+    border-radius: 5px;
+}
+
+section {
+    background-image: url(./images/werkend.png);
+    border-radius: 5px;
+
+}
+header p {
+    font-size: 1.5rem;
+}
+
+.spacing {
+    margin-top: 15%;
+    border-top: solid;
+}
+
+main img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+footer {
+    background: rgb(212, 83, 250);
+    background: linear-gradient(90deg, rgba(212, 83, 250, 1) 0%, rgba(238, 206, 241, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    line-height: 1vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 0px;
+    margin-right: none;
+    margin-left: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.disc {
+    padding-top: 25%;
+    font-size: x-small;
+    color: white;
+}
